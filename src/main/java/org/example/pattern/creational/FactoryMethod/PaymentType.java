@@ -1,4 +1,4 @@
-package org.example.pattern.creational.factorymethod;
+package org.example.pattern.creational.FactoryMethod;
 
 public enum PaymentType {
     WEBPAY,

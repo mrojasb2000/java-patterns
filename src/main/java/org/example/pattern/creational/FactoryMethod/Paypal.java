@@ -1,4 +1,4 @@
-package org.example.pattern.creational.factorymethod;
+package org.example.pattern.creational.FactoryMethod;
 
 public class Paypal implements Payment {
     @Override
