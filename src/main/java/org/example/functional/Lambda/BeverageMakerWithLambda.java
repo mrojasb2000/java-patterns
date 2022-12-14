@@ -9,5 +9,9 @@ public class BeverageMakerWithLambda {
         BeverageMakerWithLambda beverageMakerWithLambda = new BeverageMakerWithLambda();
         MakeBeverage action = () -> System.out.println("Make whatever beverage you want!");
         beverageMakerWithLambda.makeBeverage(action);
+        MakeBeverage makeCoffee = () -> System.out.println("Make coffee!");
+        beverageMakerWithLambda.makeBeverage(makeCoffee);
+        MakeBeverage makeTea = () -> System.out.println("Make Tea!");
+        beverageMakerWithLambda.makeBeverage(makeTea);
     }
 }
