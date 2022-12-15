@@ -23,7 +23,9 @@ public class StudentStream {
         })
                 .forEach(s -> System.out.println("Sorted by length: " + s.getName()));
 
-        students.stream().sorted(Comparator.comparing(Student::getNumClassesTaken));
+        students.stream()
+                .sorted(Comparator.comparing(Student::getNumClassesTaken))
+                .forEach(s -> System.out.println("Sorted by number classes token: " + s.getNumClassesTaken()));
     }
 }
 @Getter
