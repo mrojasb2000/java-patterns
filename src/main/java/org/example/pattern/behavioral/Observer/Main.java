@@ -7,7 +7,7 @@ public class Main {
         MessagePublisher messagePublisher = new MessagePublisher();
         messagePublisher.attach(car);
         messagePublisher.attach(people);
-        //messagePublisher.notify(new TrafficLight("GREEN PEOPLE"));
-        messagePublisher.notify(new TrafficLight("GREEN CAR"));
+        messagePublisher.notify(new TrafficLight("GREEN PEOPLE"));
+        //messagePublisher.notify(new TrafficLight("GREEN CAR"));
     }
 }
