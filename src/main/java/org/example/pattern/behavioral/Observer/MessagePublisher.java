@@ -12,7 +12,7 @@ public class MessagePublisher implements Subject{
     }
 
     @Override
-    public void deattach(Observer observer) {
+    public void detach(Observer observer) {
         observers.remove(observer);
     }
 
